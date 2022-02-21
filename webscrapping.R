@@ -13,7 +13,7 @@ tables <- html_nodes(file, "table")
 
 #Changing the table name from "table1:5" to "table4:10", just for the practice
 table4 <- html_table(tables[10], fill =TRUE)
-print(table10)
+print(table4)
 
 
 #Table 3
