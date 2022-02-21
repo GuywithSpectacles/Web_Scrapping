@@ -11,7 +11,10 @@ file <- read_html(theURL)
 
 tables <- html_nodes(file, "table")
 
-table1 <- html_table(tables[5], fill =TRUE)
+#Changing the table name from "table1:5" to "table4:10", just for the practice
+table4 <- html_table(tables[10], fill =TRUE)
+print(table10)
+
 
 #Table 3
 table3 <- html_table(tables[8], fill = TRUE)
